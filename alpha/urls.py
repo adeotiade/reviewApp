@@ -16,5 +16,6 @@ urlpatterns = [
     path('editRev/<str:pk>/', views.editRev, name='editReview'),
     path('deleteReview/<int:pk>/', views.deleteReview, name='deleteReview'),    
     path('aboutus/', views.aboutus, name='aboutus'), 
-    path('logout/', views.logout, name='logout'),   
+    path('logout/', views.logout, name='logout'),  
+    #ade
 ]
